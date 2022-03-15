@@ -32,7 +32,7 @@
         function updateStatus(siteId) {
             $.ajax({
                     method: "GET",
-                    url: "/site-status/1"
+                    url: `/site-status/${siteId}`
                 })
                 .done((response) => {
                     console.log(response);
@@ -42,6 +42,8 @@
                         setTimeout(function() {
                             updateStatus(siteId)
                         }, 5000)
+                    }else{
+                        alert("Site Crawl completed successfully")
                     }
                 });
         }
