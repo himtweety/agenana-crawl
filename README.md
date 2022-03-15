@@ -8,4 +8,4 @@ Simple crawler build on laravel
 - run the command to **bash initialise.sh 
 - wait for application to build 
 
-visit localhost:80 once script execution is complete
+visit localhost:8000 once script execution is complete
