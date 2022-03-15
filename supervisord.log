@@ -18767,3 +18767,15 @@
 2022-03-15 18:49:00,628 INFO success: laravel-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2022-03-15 18:49:00,628 INFO success: laravel-worker_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2022-03-15 18:49:00,628 INFO success: laravel-worker_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-15 19:49:12,229 WARN received SIGQUIT indicating exit request
+2022-03-15 19:49:12,234 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-worker_04, laravel-worker_05, laravel-worker_06, laravel-worker_07, laravel-worker_08, laravel-worker_09 to die
+2022-03-15 19:49:12,237 INFO stopped: laravel-worker_04 (exit status 255)
+2022-03-15 19:49:12,238 INFO stopped: laravel-worker_01 (exit status 255)
+2022-03-15 19:49:12,238 INFO stopped: laravel-worker_02 (exit status 255)
+2022-03-15 19:49:12,238 INFO stopped: laravel-worker_05 (exit status 255)
+2022-03-15 19:49:12,238 INFO stopped: laravel-worker_06 (exit status 255)
+2022-03-15 19:49:12,238 INFO stopped: laravel-worker_07 (exit status 255)
+2022-03-15 19:49:12,238 INFO stopped: laravel-worker_08 (exit status 255)
+2022-03-15 19:49:12,238 INFO stopped: laravel-worker_09 (exit status 255)
+2022-03-15 19:49:13,240 INFO stopped: laravel-worker_00 (exit status 255)
+2022-03-15 19:49:13,240 INFO stopped: laravel-worker_03 (exit status 255)

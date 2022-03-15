@@ -35,7 +35,7 @@ class SiteController extends Controller
         ];
         Page::create($pageData);
 
-        return redirect()->route('site.result', ['site' => 1]);
+        return redirect()->route('site.result', ['site' =>  $siteObj->id]);
     }
 
 
