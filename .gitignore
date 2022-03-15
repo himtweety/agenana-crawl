@@ -1,0 +1,8 @@
+!.gitignore
+.env
+node_modules/*
+node_modules/
+vendor/*
+vendor/
+public/js/app.js
+supervisord.log
